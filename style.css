@@ -1,0 +1,63 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+#alignContent
+{
+  margin-left:1px;
+  height: 500px;
+  width: 150px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: gray;
+  align-content:flex-end;
+}
+
+#b,div{
+  margin-left:25px;
+  width:100px;
+  height:100px;
+  text-align: center;
+}
+
+#alignItem
+{
+  top:10px;
+  left:200px;
+  position: absolute;
+  height: 500px;
+  width: 150px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: gray;
+  align-items:flex-end;
+}
+
+#a{
+  margin-left:25px;
+  width:100px;
+  height:100px;
+  text-align: center;
+}
+
+#alignSelf
+{
+  top:10px;
+  left:400px;
+  position: absolute;
+  height: 500px;
+  width: 150px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: gray;
+}
+#selfid{
+ align-self: flex-end;
+}
+
+#a{
+  margin-left:25px;
+  width:100px;
+  height:100px;
+  text-align: center;
+}
