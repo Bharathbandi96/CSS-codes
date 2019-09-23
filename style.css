@@ -13,7 +13,7 @@ h1, h2 {
   align-content:flex-end;
 }
 
-#b,div{
+div{
   margin-left:25px;
   width:100px;
   height:100px;
@@ -33,12 +33,6 @@ h1, h2 {
   align-items:flex-end;
 }
 
-#a{
-  margin-left:25px;
-  width:100px;
-  height:100px;
-  text-align: center;
-}
 
 #alignSelf
 {
@@ -53,11 +47,4 @@ h1, h2 {
 }
 #selfid{
  align-self: flex-end;
-}
-
-#a{
-  margin-left:25px;
-  width:100px;
-  height:100px;
-  text-align: center;
 }
