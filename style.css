@@ -84,5 +84,5 @@ p{
   text-align: center;
 }
 #self{
-  align-self: flex-end;
+  align-self: stretch;
 }
