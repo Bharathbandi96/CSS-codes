@@ -64,9 +64,8 @@ div{
   background-color: aquamarine;
   display: flex;
   align-items: center;
-  justify-content: inherit;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-flow: row wrap;
 }
 
 span{
@@ -83,4 +82,7 @@ p{
   height: 50px;
   background-color: rgb(60, 167, 152);
   text-align: center;
+}
+#self{
+  align-self: flex-end;
 }
